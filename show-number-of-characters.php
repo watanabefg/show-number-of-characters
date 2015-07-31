@@ -29,7 +29,7 @@
 function add_posts_columns($columns) {
   $columns['thumbnail'] = __('サムネイル');
   $columns['count'] = __('文字数');
-  echo '<style TYPE="text/css">.column-thumbnail{max-width:100%; height:auto;}</style>';
+  echo '<style TYPE="text/css">.column-thumbnail img {max-width:100%; height:auto;}</style>';
   return $columns;
 }
 
